@@ -10,7 +10,7 @@ ACME Animation required a secure, scalable, and highly available infrastructure 
 
 2. Architecture & Design
 ACME Animation Logical Network Diagram
-
+![Network Infrastructure Logical Diagram](Network Infrastructure Logical Diagram.png)
 Caption: Enterprise network topology designed for ACME Animation featuring segmented VLANs, redundant switching infrastructure, dedicated server and SAN networks, dual wireless networks, centralized Active Directory services, and high-availability virtualization hosts.
 
 Key Design Components
