@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<!--
+
 Jake Stodola's Cybersecurity Portfolio
 
 Welcome to my documentation hub. I am a Cybersecurity Specialist student at Chippewa Valley Technical College (CVTC), building a foundation in physical security, IT infrastructure, and network defense. 
@@ -30,4 +30,3 @@ This site serves as a live record of my technical labs, architectural designs, a
 
 ### Semester 4: 
 * *Projects coming soon...*
--->
