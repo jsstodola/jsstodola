@@ -1,0 +1,84 @@
+# [Project Title: Business Network Infrastructure Proposal]
+
+**Date:** [September, 2024]
+**Security Domain:** [Network Infrastructure]
+**Tools & Hardware Used:** [Microsoft Visio, Windows Server 2022, Microsoft Excel]
+
+1. Scenario & Objective
+
+ACME Animation required a secure, scalable, and highly available infrastructure to support approximately 60 employees, including CGI developers, management, support staff, IT personnel, and remote workers. The objective of this project was to design a complete enterprise network and data center infrastructure that emphasized performance, security, redundancy, and future growth through network segmentation, virtualization, centralized management, and redundant connectivity.
+
+2. Architecture & Design
+ACME Animation Logical Network Diagram
+
+Caption: Enterprise network topology designed for ACME Animation featuring segmented VLANs, redundant switching infrastructure, dedicated server and SAN networks, dual wireless networks, centralized Active Directory services, and high-availability virtualization hosts.
+
+Key Design Components
+Six high-performance switches providing redundancy and scalability.
+VLAN segmentation by department and function:
+VLAN 10 - Developers
+VLAN 20 - Management
+VLAN 30 - HR/Accounting/Support
+VLAN 40 - IT Staff
+VLAN 50 - Guest Wi-Fi
+VLAN 60 - Employee Wi-Fi
+VLAN 70 - Servers
+VLAN 80 - SAN Storage
+Virtualized server environment supporting:
+Active Directory
+DNS
+DHCP
+Database Services
+Application Services
+Web Services
+Ticketing System
+Dedicated SAN for centralized storage.
+Redundant fiber connectivity between infrastructure components.
+Separate guest and employee wireless networks utilizing isolated VLANs and SSIDs.
+3. Methodology & Execution
+
+The project began with analyzing the business requirements of a 60-person animation studio where high-bandwidth CGI workloads, sensitive employee data, and service availability were all critical concerns. Rather than deploying a flat network, VLAN segmentation was chosen to separate departments and reduce the potential impact of security incidents or excessive broadcast traffic.
+
+A redundant switching architecture was designed to eliminate single points of failure. Multiple switches and fiber connections were incorporated so that connectivity could be maintained even during hardware failures. This approach supports business continuity and minimizes downtime.
+
+Server infrastructure was built around virtualization to maximize hardware utilization and simplify future expansion. Critical services such as Active Directory, DNS, DHCP, web hosting, and database services were hosted in virtual environments while dedicated hardware was used to provide load balancing and redundancy.
+
+Storage requirements were addressed through the implementation of a SAN network. Sensitive HR and accounting information was isolated through secure storage segmentation, ensuring that confidential business records remained protected while still being centrally managed.
+
+Wireless access was intentionally separated into guest and employee networks to prevent unauthorized access to internal resources. This design provides both improved security and an alternate connectivity method should portions of the wired network become unavailable.
+
+Additionally, Active Directory procedures were documented to ensure consistent user onboarding, permission assignment, group management, and remote access configuration across the environment.
+
+4. Challenges & Troubleshooting
+Issue Encountered
+
+Creating an enterprise network that balanced performance, security, and high availability without introducing unnecessary complexity. The environment required multiple departments, wireless networks, servers, and storage systems to communicate while remaining properly segmented.
+
+Troubleshooting Steps
+Evaluated departmental communication requirements.
+Developed a VLAN and subnetting strategy to reduce unnecessary interdepartmental access.
+Reviewed potential points of failure within the switching and server architecture.
+Designed failover paths through switch redundancy, virtualization, and redundant connectivity.
+Verified that guest wireless traffic remained isolated from corporate resources.
+Resolution
+
+A layered architecture utilizing VLAN segmentation, dedicated server and storage networks, redundant switching infrastructure, and isolated wireless environments successfully met the organization's security and availability requirements. The final design allows for future expansion while maintaining manageable administrative overhead.
+
+5. Conclusion & Lessons Learned
+Final Outcome
+
+The project successfully delivered a comprehensive enterprise infrastructure design for ACME Animation. The final solution provides secure departmental segmentation, centralized identity management, redundant network connectivity, virtualized services, and dedicated storage resources capable of supporting both current operations and future organizational growth.
+
+Lessons Learned
+Network segmentation is essential for both security and performance in medium-sized enterprise environments.
+Redundancy must be incorporated during the design phase rather than added later.
+Virtualization significantly improves scalability and resource utilization.
+Storage networks should be isolated from normal user traffic to improve both performance and security.
+Thorough documentation is critical for consistent system administration and future maintenance.
+Security Recommendations
+Implement Multi-Factor Authentication (MFA) for all administrative and remote-access accounts.
+Deploy Network Access Control (NAC) to validate devices before granting network access.
+Utilize role-based access control (RBAC) within Active Directory to enforce least-privilege principles.
+Implement centralized log monitoring and a Security Information and Event Management (SIEM) platform.
+Establish regular vulnerability assessments, security audits, and disaster recovery testing procedures.
+Deploy redundant firewalls and intrusion detection/prevention systems to further strengthen the security posture.
