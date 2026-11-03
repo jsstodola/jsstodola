@@ -9,7 +9,7 @@
 ACME Animation required a secure, scalable, and highly available infrastructure to support approximately 60 employees, including CGI developers, management, support staff, IT personnel, and remote workers. The objective of this project was to design a complete enterprise network and data center infrastructure that emphasized performance, security, redundancy, and future growth through network segmentation, virtualization, centralized management, and redundant connectivity.
 
 2. Architecture & Design
-<img width="590" height="779" alt="Image" src="https://github.com/user-attachments/assets/3cb7adfd-44b5-4d88-8dd8-9a8ae962018a" />
+Network Infrastructure Logical Diagram.png
 Caption: Enterprise network topology designed for ACME Animation featuring segmented VLANs, redundant switching infrastructure, dedicated server and SAN networks, dual wireless networks, centralized Active Directory services, and high-availability virtualization hosts.
 
 Key Design Components
