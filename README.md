@@ -10,6 +10,7 @@ This site serves as a live record of my technical labs, architectural designs, a
 ## 🔗 Connect With Me
 * **LinkedIn:** [My Professional Profile](https://www.linkedin.com/in/jake-stodola/)
 * **GitHub:** [My Technical Vault](https://github.com/jsstodola)
+* **Notion:** [My Portfolio](https://mint-hedge-909.notion.site/jake-stodola-cyber-portfolio?source=copy_link)
 
 ---
 
